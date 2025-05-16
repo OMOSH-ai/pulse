@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PulsePolicy | Data-Driven Policy Solutions</title>
+  <link rel="stylesheet" href="pulse.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+        <div class="logo">PulsePolicy</div>
+        <div class="logo">
+            <img src="images/logo.jpg" style="height: 50px;">
+          </div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Data-Driven Policy Solutions for Governments & NGOs</h1>
+    <p>Actionable insights. Measurable impact.</p>
+    <a href="#contact" class="btn">Get a Free Policy Audit →</a>
+  </section>
+
+  <section class="trust">
+    <h2>As Featured In</h2>
+    <div class="logos">
+      <img src="images/media1.png" >
+      <img src="images/media2.png" >
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="service-grid">
+      <div class="service-item">
+        <img src="https://img.icons8.com/ios-filled/50/policy-document.png" alt="Consulting Icon" />
+        <h3>Policy Advisory</h3>
+        <p>Rapid Reviews & Impact Evaluations</p>
+      </div>
+      <div class="service-item">
+        <img src="https://img.icons8.com/ios-filled/50/course-assign.png" alt="Course Assign Icon" />
+        <h3>Training & Courses</h3>
+        <p>Self-Paced and Live Cohort Programs</p>
+      </div>
+      <div class="service-item">
+        <img src="https://img.icons8.com/ios-filled/50/combo-chart.png" alt="Data Tools Icon" />
+        <h3>Data Tools</h3>
+        <p>Custom Dashboards & Scorecards</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="research" class="research">
+    <h2>Research & Insights</h2>
+    <ul>
+      <li>5 Metrics to Evaluate Any Social Program</li>
+      <li>Why [Country]’s Tax Reform Failed – Lessons</li>
+      <li><a href="#">Download: Policy Proposal Template →</a></li>
+    </ul>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>Led by an ex-World Bank economist with 12 field studies, PulsePolicy blends academic rigor with real-world pragmatism.</p>
+    <p>Our team includes a network of 20+ experts worldwide.</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <input type="text" placeholder="Organization" required>
+      <select required>
+        <option value="">How can we help?</option>
+        <option value="Consulting">Consulting</option>
+        <option value="Training">Training</option>
+        <option value="Data Tools">Data Tools</option>
+      </select>
+      <button type="submit">Submit</button>
+    </form>
+    <p>Or reach us directly:</p>
+    <ul>
+      <li><a href="#">Book on Calendly</a></li>
+      <li><a href="https://wa.me/254712345678">Chat on WhatsApp</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 PulsePolicy. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Smooth scroll for internal links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+</body>
+</html>
